@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/colorBlue"
+        android:dividerPadding="13dp"
+        android:orientation="horizontal"
+
+        android:showDividers="middle">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tema1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="TeamA"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/tema1_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="100dp" />
+
+            <Button
+                android:id="@+id/tema1_add1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/colorBlue"
+                android:onClick="tema1_add1"
+                android:text="FREE THROW"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/tema1_add2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorBlue"
+                android:onClick="tema1_add2"
+
+                android:text="+2 POINTS"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/tema1_add3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorBlue"
+                android:onClick="tema1_add3"
+                android:text="+3 POINTS"
+                android:textSize="23dp" />
+        </LinearLayout>
+        <TextView
+            android:layout_width="3dp"
+            android:layout_height="match_parent"
+            android:background="@color/colorlue"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tema2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="TeamB"
+                android:textSize="30dp" />
+
+            <TextView
+                android:id="@+id/tema2_score"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="0"
+                android:textSize="100sp" />
+
+            <Button
+                android:id="@+id/tema2_add1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:background="@color/colorBlue"
+                android:onClick="tema2_add1"
+                android:text="FREE THROW"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/tema2_add2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorBlue"
+                android:onClick="tema2_add2"
+
+                android:text="+2 POINTS"
+                android:textSize="23dp" />
+
+            <Button
+                android:id="@+id/tema2_add3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="24dp"
+                android:layout_marginRight="24dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorBlue"
+                android:onClick="tema2_add3"
+                android:text="+3 POINTS"
+                android:textSize="23dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+
+        android:id="@+id/RESERT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="109dp"
+        android:background="@color/colorBlue"
+        android:onClick="RESERT"
+        android:text="RESERT"
+        android:textSize="23dp" />
+
+</LinearLayout>
+
